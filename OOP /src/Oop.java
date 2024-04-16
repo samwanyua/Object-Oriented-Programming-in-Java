@@ -9,7 +9,7 @@ public class Oop {
 
         // user_one.set_membership(User.Membership.Gold);
 
-        User user_3 = new User("Sam", "Wanyua");
+        User user_3 = new User("Sam", "Gold");
 
         // User user_two = new User();
         // user_two.name = "Sally";
@@ -17,11 +17,18 @@ public class Oop {
         // user_two.age = 23;
 
 
-
         // Accessing the values
         System.out.println(user_one.get_name()); // using a getter
         System.out.println(user_one.get_membership());
         System.out.println(user_3.get_name());
+
+        System.out.println(user_3);
+        System.out.println(user_one);
+
+        System.out.println(user_3 == user_one); //false
+        System.out.println(user_3.equals(user_one)); //false
+
+        
 
         // System.out.println(user_two.membership);
         // System.out.println(user_two.age);

@@ -3,16 +3,33 @@ public class User {
     private String _membership = "Bronze"; // setting default values
     int age;
 
+    // method overriding - replacing a method
+    public String toString(){
+        return get_name() + " - " + get_membership();
+    }
+
     // default constructor
     public User(){
         // This is a default constructor
     }
     
+    
+
     // custom constructor
     public User(String name, String membership){
         set_name(name);
         set_membership(membership);
     }
+
+    public boolean equals(User user_two){
+        if(get_name() == user_two.get_name() && get_membership() == user_two.get_membership()){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
 
     //setter
     void set_name(String name){
