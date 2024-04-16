@@ -5,18 +5,22 @@ public class Oop {
     // Creating an instance of a class/object
         User user_one = new User();
         // new User() is a constructor
-        user_one.name = "Caleb";
+        user_one.set_name("Caleb Peace"); //using a setter
+
         user_one.membership = "Gold";
 
-        User user_two = new User();
-        user_two.name = "Sally";
-        user_two.membership = "Silver";
-        user_two.age = 23;
+        // User user_two = new User();
+        // user_two.name = "Sally";
+        // user_two.membership = "Silver";
+        // user_two.age = 23;
+
+
 
         // Accessing the values
-        System.out.println(user_one.name);
-        System.out.println(user_two.membership);
-        System.out.println(user_two.age);
+        System.out.println(user_one.get_name()); // using a getter
+        
+        // System.out.println(user_two.membership);
+        // System.out.println(user_two.age);
 
     }
 }
