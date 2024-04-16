@@ -7,7 +7,7 @@ public class Oop {
         // new User() is a constructor
         user_one.set_name("Caleb Peace"); //using a setter
 
-        user_one.membership = "Gold";
+        user_one.set_membership(User.Membership.Gold);
 
         // User user_two = new User();
         // user_two.name = "Sally";
@@ -18,7 +18,8 @@ public class Oop {
 
         // Accessing the values
         System.out.println(user_one.get_name()); // using a getter
-        
+        System.out.println(user_one.get_membership());
+
         // System.out.println(user_two.membership);
         // System.out.println(user_two.age);
 
