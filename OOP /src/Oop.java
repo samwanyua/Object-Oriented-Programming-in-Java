@@ -11,10 +11,12 @@ public class Oop {
         User user_two = new User();
         user_two.name = "Sally";
         user_two.membership = "Silver";
+        user_two.age = 23;
 
         // Accessing the values
         System.out.println(user_one.name);
         System.out.println(user_two.membership);
+        System.out.println(user_two.age);
 
     }
 }
