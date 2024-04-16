@@ -1,7 +1,18 @@
 public class User {
     private String _name;
-    private String _membership;
+    private String _membership = "Bronze"; // setting default values
     int age;
+
+    // default constructor
+    public User(){
+        // This is a default constructor
+    }
+    
+    // custom constructor
+    public User(String name, String membership){
+        set_name(name);
+        set_membership(membership);
+    }
 
     //setter
     void set_name(String name){
