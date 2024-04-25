@@ -1,6 +1,6 @@
 public class Oop {
     public static void main(String[] args) {
-        System.out.println("Hello Java");
+        System.out.println("Hello WSL");
     // static - you don't have to create an instance of a class
     // Creating an instance of a class/object
         User user_one = new User("Caleb", "Gold"); // this is a custom constructor
