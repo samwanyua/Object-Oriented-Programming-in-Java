@@ -13,8 +13,6 @@ public class User {
         // This is a default constructor
     }
     
-    
-
     // custom constructor
     public User(String name, String membership){
         set_name(name);
