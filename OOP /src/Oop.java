@@ -5,7 +5,7 @@ public class Oop {
     // Creating an instance of a class/object
         User user_one = new User("Caleb", "Gold"); // this is a custom constructor
         // new User() is a default constructor
-        // user_one.set_name("Caleb Peace"); //using a setter
+//         user_one.set_name("Caleb Peace"); //using a setter
 
         // user_one.set_membership(User.Membership.Gold);
 
@@ -30,8 +30,8 @@ public class Oop {
 
         
 
-        // System.out.println(user_two.membership);
-        // System.out.println(user_two.age);
+//         System.out.println(user_two.membership);
+//         System.out.println(user_two.age);
 
     }
 }
